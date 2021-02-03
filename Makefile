@@ -1,6 +1,6 @@
 SHELL=/bin/bash -o pipefail
 
-SOURCE_IMAGE_REF := tianon/toybox:latest
+SOURCE_IMAGE_REF := tianon/toybox:0.8.4
 
 REGISTRY     ?= kubedb
 BIN          := toybox
